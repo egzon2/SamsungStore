@@ -1,0 +1,198 @@
+*{
+    padding:0;margin:0;
+}
+
+
+#header{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+#header .container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container .logo {
+    width:170px;
+    height:70px;
+}
+
+.contianer .logo a{
+    margin:0;
+    padding:0;
+}
+
+
+.container .secondlist{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+
+}
+
+.container .secondlist li{
+    font-size:11px;
+    
+}
+
+
+
+
+.menu{
+    margin-top:10px;
+    width: 80%;
+}
+.menu ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    color:white;
+    
+}
+
+
+
+/*ContentIndex*/
+#content #slider figure img{
+    height:250px;
+    width:20%;
+}
+
+#content #content-2 ,.container2{
+    width:100%;
+    
+}
+
+/*ContentAbout*/
+
+#contentAbout {
+    width:100%;
+    height:700px;
+}
+
+#contentAbout .container2{
+    width:90%;
+    height:550px;
+}
+
+
+
+/*ContentContact*/
+#contentContact{
+    min-height:calc(100vh - 130px - 495px);
+}
+
+#contentContact .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:85%;
+    height:1250px;
+}
+
+#contentContact .container .containeri{
+    width:90%;
+    padding-right:0;
+    height:700px;
+}
+
+#contentContact .container .form-info{
+    width:90%;
+    padding:10px;
+    height: 400px;
+    
+}
+/* Add NEWS PAGE ------*/
+#newsadd{
+    width: 100%;
+    height: 700px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    
+ }
+ #newsbox{
+     width: 70%;
+     margin-top: 50px;
+     padding: 20px 30px;
+     height:500px;
+ }
+/*TABELA  E USERAVE *-----*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin:auto auto  10px;
+    border-bottom:1px solid green;
+  }
+  
+th, td {
+ text-align: center;  
+ padding: 0px;
+ margin:0px;
+ display: flex;
+ display: inline;
+ flex-flow: column;
+   
+}
+.tabela{
+    width:100%;
+}
+
+/*Register*/
+#contentregister .container{
+    width:100%;
+  
+}
+
+#contentregister .register-form{
+    height:420px;
+    width:70%;
+    margin-top:20px;
+}
+
+
+
+
+/*Footer*/
+#footer{
+    width:100%;
+    height:1200px;
+    /*margin:auto auto;*/
+}
+
+#footer .container{
+    width:100%;
+    height:1050px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*align-content: center;*/
+   
+   
+}
+
+#footer .container .d1{
+    width:60%;
+    height:230px;
+}
+
+
+#footer .lastdiv{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:150px;
+}
+
+.lastdiv p{
+    width:50%;
+    text-align:center;
+}

@@ -1,0 +1,41 @@
+/*Klasat me flexbox*/
+.flex{
+    display:flex;
+}
+.flex-flow{
+    flex-flow:row wrap;
+}
+.justify-content{
+    justify-content:center;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.align-items-bottom{
+    align-items: flex-end;
+}
+
+.align-content{
+    align-content: center;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}

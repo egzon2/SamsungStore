@@ -1,0 +1,157 @@
+*{
+    padding:0;margin:0;
+}
+
+
+#header{
+    height:150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#header .container{
+    width:98%;
+   
+}
+
+
+.container .logo {
+    width:170px;
+    height:70px;
+}
+
+.contianer .logo a{
+    margin:0;
+    padding:0;
+}
+
+
+.container .secondlist{
+    display:flex;
+    flex-flow:row wrap;
+
+}
+
+.container .secondlist li{
+    font-size:15px;
+    
+}
+.menu{
+    margin-top:10px;
+}
+.menu ul li{
+    display:inline;
+    list-style-type: none;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    color:white;
+    
+}
+
+
+
+/*ContentIndex*/
+#content #slider figure img{
+    height:500px;
+    width:20%;
+}
+
+#content #content-2 ,.container2{
+    width:100%; 
+    
+}
+
+
+/*ContentAbout*/
+
+#contentAbout {
+    width:100%;
+    height:700px;
+}
+
+#contentAbout .container2{
+    width:90%;
+    height:550px;
+}
+
+
+
+/*ContentContact*/
+#contentContact{
+    min-height:calc(100vh - 130px - 495px);
+}
+
+#contentContact .container{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:850px;
+}
+
+#contentContact .container .containeri{
+    width:100%;
+    padding-right:0;
+    height:350px;
+}
+
+#contentContact .container .form-info{
+    width:80%;
+    padding:10px;
+    
+}
+ 
+
+
+/*Register*/
+#contentregister{
+    height: 650px;
+}
+#contentregister .container{
+    width:100%;
+    height:500px;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.register-form{
+    width: 50%;
+}
+
+
+
+
+
+/*Footer*/
+#footer{
+    width:100%;
+    height:800px;
+    /*margin:auto auto;*/
+}
+
+#footer .container{
+    width:80%;
+    height:650px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*align-content: center;*/
+   
+   
+}
+
+#footer .container .d1{
+    width:35%;
+    height:230px;
+}
+
+
+#footer .lastdiv{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:150px;
+}

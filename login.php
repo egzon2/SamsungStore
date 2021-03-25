@@ -79,7 +79,7 @@
             
 
             
-            <span style="margin-left:20px;width:70%;" id="pwerror"></span>
+            <span style="width:70%;" id="pwerror"></span>
             <input class="input" id="password" type="password" name="password" placeholder="Your Password"/>
             <span class="error"> <?php echo $passwordErr;?>
             <button type="submit" name="submit" class="button">

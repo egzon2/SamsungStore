@@ -49,7 +49,8 @@
    <div id="newsadd">
       <div id="newsbox">
         <form name="myForm"  enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" onsubmit="validateForm()" method="POST" > 
-        <!--$_SERVER["PHP_SELF"]; pra kjo tregon se cili fajll eshte ma mir ja lana qeshtu se sa kur te ja ndryshojm emnin fajllit skem nevoj ma me ndryshu edhe ktu -->
+        <!--$_SERVER["PHP_SELF"]; pra kjo tregon se cili fajll eshte ma mir ja lana qeshtu
+         se sa kur te ja ndryshojm emnin fajllit skem nevoj ma me ndryshu edhe ktu -->
           </span> <label class="labelAdd">Shto Titullin </label>
             <input class="inputAdd" type="text" name="title" value="<?php echo $news['posts_title']; ?>"/><br/>
             </span><label class="labelAdd"> Shto permbajtjen e lajmit</label>
